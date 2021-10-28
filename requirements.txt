@@ -1,0 +1,6 @@
+cheerio@1.0.0-rc.10
+cron@1.8.2
+discord.js@13.1.0
+pixelmatch@5.2.1
+puppeteer@10.2.0
+webhook-discord@3.7.8
