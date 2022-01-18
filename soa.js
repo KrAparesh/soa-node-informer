@@ -77,7 +77,7 @@ async function CompareData(page) {
         .setTitle(title)
         .setDescription(`[Click to open PDF!](`+link+`)`)
         .setFooter(date);
-        client.channels.cache.get('903198340160835615').send({embeds: [exampleEmbed]});
+        client.channels.cache.get('928657709493022730').send({embeds: [exampleEmbed]});
           console.log("** UPDATE **");
           console.log(title);
           console.log(link);
