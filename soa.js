@@ -7,7 +7,8 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 client.login("OTAzMjc1MTY4MDkxMjM4NDIx.YXqmjg.AmNLCEShtb40iVoXFZmoDqVlowI");
 client.on('ready', () => {
-    console.log('Ready!')
+    console.log('Ready!');
+    client.user.setPresence({ activities: [{ name: `ITER's Website`, type: `WATCHING`  }], status: 'idle'});
 });
 
 url = "https://www.soa.ac.in/iter";
